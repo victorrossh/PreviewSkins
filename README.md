@@ -46,7 +46,7 @@ In the code:
 
 Make sure the HTML files match the second value in the array within the plugin, in this case referring to `ct_anonymous`.
 
-### How to Use
+## How to Use
 
 After installing the plugins, you can use the following commands in-game to access the preview menus:
 
@@ -56,14 +56,14 @@ After installing the plugins, you can use the following commands in-game to acce
 - `/pmodels_tr` - Opens the TR Player models preview menu.
 - `/preview` - Opens the main preview menu, allowing navigation between Butchers, Knifes, and Player models.
 
-### How It Works
+## How It Works
 
 Each plugin dynamically loads preview files from the `cstrike/preview` directory. The `%s` placeholders in the plugin code will automatically fetch and display the corresponding HTML file for the selected item. For example:
 
 - When a player selects "Black Wolf" in the Butchers menu, the plugin will load `cstrike/preview/b_blackwolf.html` in the MOTD window.
 - Similarly, selecting "Abstract" in the Knifes menu will load `cstrike/preview/k_abstract.html`.
 
-### Authors
+## Authors
 
 - **ftl~**
 - **WESPEOOTY**
